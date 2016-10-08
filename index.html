@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>HTML 5 from Scratch</title>
+</head>
+<body>
+    <section id="formSection">
+        <form id="myForm">
+            <label for="email-data">Email: </label>
+            <input type="email" id="email-data" required multiple/>
+            <input type="submit" value="Submit" />
+            <label for="myDataList">Data List: </label>
+            <input type="text" list="myDataList" >
+            <datalist id="myDataList">
+                <option value="Mr." label="Mr."></option>
+                <option value="Mrs." label="Mrs."></option>
+                <option value="Ms." label="Ms."></option>
+            </datalist><br /><br /><br />
+            <form id="dataForm">
+                <label for="key">Key:</label>
+                <input type="text" id="key" name="key" /><br />
+                <label for="value">Value:</label><br />
+                <textarea name="value" id="value" cols="30" rows="10"></textarea><br />
+                <input type="button" id="save" value="Save" />
+                <input type="button" id="retrieve" value="Retrieve" />
+                <input type="button" id="review" value="Review" />
+            </form>
+
+        </form>
+    </section>
+    <section id="data"></section>
+
+    <section id="CanvasSection">
+        <canvas width=300 height=150 id="canvas"></canvas>
+
+        <canvas width=300 height=200 id="canvas1"></canvas>
+        <canvas width=300 height=200 id="canvas2"></canvas>
+    </section>
+</body>
+</html>

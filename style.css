@@ -1,0 +1,30 @@
+canvas{
+    display: block;
+    clear: left;
+    border: 1px solid black;
+}
+
+#dataForm{
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+#data{
+    display: inline-block;
+    width: 400px;
+    margin-left: 10px;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+#data > div{
+    padding: 2px;
+    text-decoration: underline;
+}
+
+#key #text{
+    width: 100px;
+
+
+}
